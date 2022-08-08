@@ -1,0 +1,40 @@
+const data = {
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "OOP-Game",
+            "description": "A Game Where A User Tries To Guess The Letters of a Random Phrase",
+            "technologies": ["Vanilla JS", "Object Oriented Programming", "HTML", "CSS"],
+            "live_link": "",
+            "github_link": "https://github.com/zacharybaca/oop-game",
+            "image_urls": ["./images/oop-game/begin-screen.png", "./images/oop-game/landing-page.png", "./images/oop-game/lose-screen.png", "./images/oop-game/play-screen.png", "./images/oop-game/win-screen.png"]
+        },
+        {
+            "id": 1,
+            "project_name": "Data-Pagination",
+            "description": "A Directory Where A Limited Number of Users Are Displayed On Each Page",
+            "technologies": ["Pagination Techniques", "Vanilla JS", "HTML", "CSS"],
+            "live_link": "",
+            "github_link": "https://github.com/zacharybaca/data-pagination",
+            "image_urls": ["./images/data-pagination/landing-page.png", "./images/data-pagination/pagination-page.png", "./images/data-pagination/pagination-page2.png"]
+        },
+        {
+            "id": 2,
+            "project_name": "Employee-Directory",
+            "description": "An Employee Directory That Displays Users and Shows Each User's Info on a Card Via an Overlay",
+            "technologies": ["Vanilla JS", "HTML", "CSS", "REST API"],
+            "live_link": "",
+            "github_link": "https://github.com/zacharybaca/public-api",
+            "image_urls": ["./images/employee-directory/landing-page.png", "./images/employee-directory/overlay-page1.png", "./images/employee-directory/overlay-page2.png"]
+        },
+        {
+           "id": 3,
+           "project_name": "Interactive-Form",
+           "description": "A Form That Provides Validation Errors When Not Filled Out Correctly",
+           "technologies": ["Vanilla JS", "HTML", "CSS", "RegEx"],
+           "live_link": "",
+           "github_link": "https://github.com/zacharybaca/Interactive-Form",
+           "image_urls": ["./images/interactive-form/landing-page.png", "./images/interactive-form/shirt-screen.png", "./images/interactive-form/shirt-screen2.png", "./images/interactive-form/validation-error.png"] 
+        }
+    ]
+}
