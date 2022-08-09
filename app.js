@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const PORT = 3000;
 const projects = require('./data.json');
 
 //Set App To Equal Express Function
@@ -11,6 +12,8 @@ app.set('view engine', 'pug');
 //Route To Serve Static Images
 app.use('/static', express.static(path.join(__dirname, 'public')));
 
+//Middleware To Read Incoming Data as JSON
+app.use(express.json());
 
 
 //Route to Take User To Index Page and Give Route Access To Project Data
@@ -61,6 +64,10 @@ app.use((err, req, res, next) => {
 })
 
 //Route to Start Server For Express App
-app.listen(3000, () => {
-    console.log('The application is running on localhost:3000');
-})
+app.listen(PORT, (err) => {
+    if (!err) {
+        console.log(`Server is Running Correctly, and is Listening on port ${PORT}`);
+    } else {
+        console.log('An Error Has Occurred and the Server Cannot Start', err);
+    }
+});
