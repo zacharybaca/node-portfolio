@@ -39,22 +39,25 @@ app.get('/project/:id', (req, res, next) => {
 
 //Middleware To Catch Errors
 
+//Error Handler To Catch 404 Status Errors
+
 app.use((req, res, next) => {
-    console.log('404 called')
-    res.status(404).render('index', { message: 'Page Not Found!' });
-    
+    console.log('404 called');
+    const err = new Error();
+    err.status = 404;
+    err.message = 'Page Not Found!';
+    next(err);
 });
 
+//Error Handler For Global Errors That Don't Match Undefined Routes
 app.use((err, req, res, next) => {
     if (err) {
-        console.log('Global err called');
+        console.log('Global Handler Called');
+        err.status = err.status || 500;
+        err.message = err.message || 'An Error Had Occurred on the Server!';
+        res.render('index', { status: `Status Code: ${err.status}`, message: err.message});
     }
-    if (err.status === 404) {
-        res.status(404).render('index', { err });
-    } else {
-        err.message = err.message || 'Something Went Wrong On The Server!';
-        res.status(err.status || 500).render('index', { err });
-    }
+    
 })
 
 //Route to Start Server For Express App
