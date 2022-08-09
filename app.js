@@ -18,7 +18,8 @@ app.use(express.json());
 
 //Route to Take User To Index Page and Give Route Access To Project Data
 app.get('/', (req, res) => {
-    res.locals = projects.projects;
+    res.locals = projects;
+    console.log(res.locals);
     res.render('index');
 });
 
@@ -45,7 +46,6 @@ app.get('/project/:id', (req, res, next) => {
 //Error Handler To Catch 404 Status Errors
 
 app.use((req, res, next) => {
-    console.log('404 called');
     const err = new Error();
     err.status = 404;
     err.message = 'Page Not Found!';
@@ -55,7 +55,6 @@ app.use((req, res, next) => {
 //Error Handler For Global Errors That Don't Match Undefined Routes
 app.use((err, req, res, next) => {
     if (err) {
-        console.log('Global Handler Called');
         err.status = err.status || 500;
         err.message = err.message || 'An Error Had Occurred on the Server!';
         res.render('index', { status: `Status Code: ${err.status}`, message: err.message});

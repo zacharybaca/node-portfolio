@@ -9,10 +9,11 @@ block content
   article.portfolio-intro
 
     //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
-    h1 Heading
+    h1 If you can think it, we can web it.....
 
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
-    p Portfolio description
+    p Welcome to my online portfolio! Here, you can view some of my most recent projects that I have built from the ground up.
+    p Most of these projects are built with vanilla, or plain javascript. However, I am planning on adding more as I continue to learn more modern and advance technologies!
 
 
   article.portfolio-project-thumbs
@@ -24,9 +25,9 @@ block content
           //- The paths in the link's href and img's src attributes
           //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
           //- The project title for the h5 element's text
-
+      each project in projects
         .cell
-          a(href='#')
-            img.thumbnail(src='https://placehold.it/550x550', alt='')
+          a(href=`#{project.github_link}`)
+            img.thumbnail(src=`#{project.image_urls[0]}`, alt='')
             h5 My Site
 
