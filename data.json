@@ -7,7 +7,7 @@
             "technologies": ["Vanilla JS", "Object Oriented Programming", "HTML", "CSS"],
             "live_link": "",
             "github_link": "https://github.com/zacharybaca/oop-game",
-            "image_urls": ["./public/images/oop-game/begin-screen.png", "./public/images/oop-game/landing-page.png", "./public/images/oop-game/lose-screen.png", "./public/images/oop-game/play-screen.png", "./public/images/oop-game/win-screen.png"]
+            "image_urls": ["/static/images/oop-game/begin-screen.png", "/static/images/oop-game/landing-page.png", "/static/images/oop-game/lose-screen.png", "/static/images/oop-game/play-screen.png", "/static/images/oop-game/win-screen.png"]
         },
         {
             "id": 1,
@@ -16,7 +16,7 @@
             "technologies": ["Pagination Techniques", "Vanilla JS", "HTML", "CSS"],
             "live_link": "",
             "github_link": "https://github.com/zacharybaca/data-pagination",
-            "image_urls": ["./public/images/data-pagination/landing-page.png", "./public/images/data-pagination/pagination-page.png", ".public/images/data-pagination/pagination-page2.png"]
+            "image_urls": ["/static/images/data-pagination/landing-page.png", "/static/images/data-pagination/pagination-page.png", "/static/images/data-pagination/pagination-page2.png"]
         },
         {
             "id": 2,
@@ -25,7 +25,7 @@
             "technologies": ["Vanilla JS", "HTML", "CSS", "REST API"],
             "live_link": "",
             "github_link": "https://github.com/zacharybaca/public-api",
-            "image_urls": ["./public/images/employee-directory/landing-page.png", "./public/images/employee-directory/overlay-page1.png", "./public/images/employee-directory/overlay-page2.png"]
+            "image_urls": ["/static/images/employee-directory/landing-page.png", "/static/images/employee-directory/overlay-page1.png", "/static/images/employee-directory/overlay-page2.png"]
         },
         {
            "id": 3,
@@ -34,7 +34,7 @@
            "technologies": ["Vanilla JS", "HTML", "CSS", "RegEx"],
            "live_link": "",
            "github_link": "https://github.com/zacharybaca/Interactive-Form",
-           "image_urls": ["./public/images/interactive-form/landing-page.png", "./public/images/interactive-form/shirt-screen.png", "./public/images/interactive-form/shirt-screen2.png", "./public/images/interactive-form/validation-error.png"] 
+           "image_urls": ["/static/images/interactive-form/landing-page.png", "/static/images/interactive-form/shirt-screen.png", "/static/images/interactive-form/shirt-screen2.png", "/static/images/interactive-form/validation-error.png"] 
         }
     ]
 }

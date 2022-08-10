@@ -27,7 +27,7 @@ block content
           //- The project title for the h5 element's text
       each project in projects
         .cell
-          a(href=`#{project.github_link}`)
-            img.thumbnail(src=`#{project.image_urls[0]}`, alt='')
-            h5 My Site
+          a(href=project.github_link)
+            img.thumbnail(src=project.image_urls[0], alt='')
+            h5= project.project_name
 
