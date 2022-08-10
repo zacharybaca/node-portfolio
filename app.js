@@ -30,7 +30,7 @@ app.get('/about', (req, res) => {
 //Route to Take User To Specific Project Based on Project ID
 app.get('/project/:id', (req, res, next) => {
     const projectId = req.params.id;
-    const project = projects.find(({id}) => id +projectId);
+    const project = projects.find(({id}) => id === +projectId);
     if (project) {
         res.render('project', { project });
     } else {
