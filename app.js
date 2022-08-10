@@ -19,7 +19,7 @@ app.use(express.json());
 //Route to Take User To Index Page and Give Route Access To Project Data
 app.get('/', (req, res) => {
     res.locals = projects;
-    res.render('index');
+    res.render('index', { projects });
 });
 
 //Route to Take User To About Page
