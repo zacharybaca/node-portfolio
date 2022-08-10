@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const PORT = 3000;
-const projects = require('./data.json');
+const { projects } = require('./data.json');
 
 //Set App To Equal Express Function
 const app = express();
