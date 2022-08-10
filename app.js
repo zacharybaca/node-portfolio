@@ -19,7 +19,6 @@ app.use(express.json());
 //Route to Take User To Index Page and Give Route Access To Project Data
 app.get('/', (req, res) => {
     res.locals = projects;
-    console.log(res.locals);
     res.render('index');
 });
 
@@ -31,8 +30,9 @@ app.get('/about', (req, res) => {
 //Route to Take User To Specific Project Based on Project ID
 app.get('/project/:id', (req, res, next) => {
     const projectId = req.params.id;
-    if (projects[projectId]) {
-        res.render('project', {project_name: projects[projectId].project_name});
+    const project = projects.find(({id}) => id +projectId);
+    if (project) {
+        res.render('project', { project });
     } else {
         const err = new Error();
         err.status = 404;
