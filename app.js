@@ -57,7 +57,7 @@ app.use((err, req, res, next) => {
     if (err) {
         err.status = err.status || 500;
         err.message = err.message || 'An Error Had Occurred on the Server!';
-        res.render('index', { status: `Status Code: ${err.status}`, message: err.message});
+        console.log(`Status Code: ${err.status}, Message: ${err.message}`);
     }
     
 })
