@@ -28,6 +28,7 @@ app.get('/about', (req, res) => {
 });
 
 //Route to Take User To Specific Project Based on Project ID
+//Error Handler For Pages or Projects That Don't Exist
 app.get('/project/:id', (req, res, next) => {
     const projectId = req.params.id;
     const project = projects.find(({id}) => id === +projectId);
@@ -45,12 +46,6 @@ app.get('/project/:id', (req, res, next) => {
 
 //Error Handler To Catch 404 Status Errors
 
-app.use((req, res, next) => {
-    const err = new Error();
-    err.status = 404;
-    err.message = 'Page Not Found!';
-    next(err);
-});
 
 //Error Handler For Global Errors That Don't Match Undefined Routes
 app.use((err, req, res, next) => {

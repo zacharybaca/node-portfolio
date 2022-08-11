@@ -5,7 +5,7 @@
             "project_name": "OOP-Game",
             "description": "A Game Where A User Tries To Guess The Letters of a Random Phrase",
             "technologies": ["Vanilla JS", "Object Oriented Programming", "HTML", "CSS"],
-            "live_link": "",
+            "live_link": "https://zacharybaca.github.io/oop-game/",
             "github_link": "https://github.com/zacharybaca/oop-game",
             "image_urls": ["/static/images/oop-game/begin-screen.png", "/static/images/oop-game/landing-page.png", "/static/images/oop-game/lose-screen.png", "/static/images/oop-game/play-screen.png", "/static/images/oop-game/win-screen.png"]
         },
@@ -14,7 +14,7 @@
             "project_name": "Data-Pagination",
             "description": "A Directory Where A Limited Number of Users Are Displayed On Each Page",
             "technologies": ["Pagination Techniques", "Vanilla JS", "HTML", "CSS"],
-            "live_link": "",
+            "live_link": "https://zacharybaca.github.io/data-pagination/",
             "github_link": "https://github.com/zacharybaca/data-pagination",
             "image_urls": ["/static/images/data-pagination/landing-page.png", "/static/images/data-pagination/pagination-page.png", "/static/images/data-pagination/pagination-page2.png"]
         },
@@ -23,7 +23,7 @@
             "project_name": "Employee-Directory",
             "description": "An Employee Directory That Displays Users and Shows Each User's Info on a Card Via an Overlay",
             "technologies": ["Vanilla JS", "HTML", "CSS", "REST API"],
-            "live_link": "",
+            "live_link": "https://zacharybaca.github.io/public-api/",
             "github_link": "https://github.com/zacharybaca/public-api",
             "image_urls": ["/static/images/employee-directory/landing-page.png", "/static/images/employee-directory/overlay-page1.png", "/static/images/employee-directory/overlay-page2.png"]
         },
@@ -32,9 +32,18 @@
            "project_name": "Interactive-Form",
            "description": "A Form That Provides Validation Errors When Not Filled Out Correctly",
            "technologies": ["Vanilla JS", "HTML", "CSS", "RegEx"],
-           "live_link": "",
+           "live_link": "https://zacharybaca.github.io/Interactive-Form/",
            "github_link": "https://github.com/zacharybaca/Interactive-Form",
            "image_urls": ["/static/images/interactive-form/landing-page.png", "/static/images/interactive-form/shirt-screen.png", "/static/images/interactive-form/shirt-screen2.png", "/static/images/interactive-form/validation-error.png"] 
+        },
+        {
+            "id": 4,
+            "project_name": "Quote-Generator",
+            "description": "An Static Webpage The Renders Random Quotes Upon Clicking a Button",
+            "technologies": ["Vanilla JS", "HTML", "CSS"],
+            "live_link": "https://zacharybaca.github.io/quote-generator/",
+            "github_link": "https://github.com/zacharybaca/quote-generator",
+            "image_urls": ["/static/images/quote-generator/landing-page.png", "/static/images/quote-generator/screen2.png", "/static/images/quote-generator/screen3.png"]
         }
     ]
 }
