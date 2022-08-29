@@ -20,12 +20,12 @@
         },
         {
             "id": 2,
-            "project_name": "Employee-Directory",
-            "description": "An Employee Directory That Displays Users and Shows Each User's Info on a Card Via an Overlay",
-            "technologies": ["Vanilla JS", "HTML", "CSS", "REST API"],
-            "live_link": "https://zacharybaca.github.io/public-api/",
-            "github_link": "https://github.com/zacharybaca/public-api",
-            "image_urls": ["/static/images/employee-directory/landing-page.png", "/static/images/employee-directory/overlay-page1.png", "/static/images/employee-directory/overlay-page2.png"]
+            "project_name": "Kwitter-Clone",
+            "description": "A Minimalistic Replica of Twitter. This Was a Group Project That I Did With My Classmates.",
+            "technologies": ["React", "Axios", "Redux", "HTML", "CSS", "REST API"],
+            "live_link": "https://kwitter-clone-ht0uxa661.vercel.app",
+            "github_link": "https://github.com/YaseenFSD/Kwitter",
+            "image_urls": ["/static/images/kwitter/landing-page.png", "/static/images/kwitter/profile-page.png", "/static/images/kwitter/signup-page.png"]
         },
         {
            "id": 3,
