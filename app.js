@@ -1,4 +1,5 @@
 const express = require('express');
+const favicon = require('serve-favicon');
 const path = require('path');
 const PORT = 3000;
 const { projects } = require('./data.json');
@@ -14,6 +15,9 @@ app.use('/static', express.static(path.join(__dirname, 'public')));
 
 //Middleware To Read Incoming Data as JSON
 app.use(express.json());
+
+//Middleware To Render Favicon
+app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.png')));
 
 
 //Route to Take User To Index Page and Give Route Access To Project Data
