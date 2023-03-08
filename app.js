@@ -58,7 +58,7 @@ app.use((err, req, res, next) => {
 })
 
 //Route to Start Server For Express App
-app.listen(PORT, (err) => {
+app.listen(process.env.PORT || PORT, (err) => {
     if (!err) {
         console.log(`Server is Running Correctly, and is Listening on port ${PORT}`);
     } else {
