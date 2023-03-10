@@ -61,6 +61,21 @@ app.use((err, req, res, next) => {
     
 })
 
+
+//Route to Download Resume
+app.get("/download/:filename", (req, res) => {
+    const filePath = __dirname + "/public/documents/" + req.params.filename;
+
+    res.download(filePath, "resume.pdf", (err) => {
+        if (err) {
+            res.send({
+                error: err,
+                msg: "Problem downloading file"
+            })
+        }
+    });
+});
+
 //Route to Start Server For Express App
 app.listen(process.env.PORT || PORT, (err) => {
     if (!err) {
