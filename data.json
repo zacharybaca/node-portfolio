@@ -1,49 +1,89 @@
- {
-    "projects": [
-        {
-            "id": 0,
-            "project_name": "OOP-Game",
-            "description": "A Game Where A User Tries To Guess The Letters of a Random Phrase",
-            "technologies": ["Vanilla JS", "Object Oriented Programming", "HTML", "CSS"],
-            "live_link": "https://zacharybaca.github.io/oop-game/",
-            "github_link": "https://github.com/zacharybaca/oop-game",
-            "image_urls": ["/static/images/oop-game/begin-screen.png", "/static/images/oop-game/landing-page.png", "/static/images/oop-game/lose-screen.png", "/static/images/oop-game/play-screen.png", "/static/images/oop-game/win-screen.png"]
-        },
-        {
-            "id": 1,
-            "project_name": "Data-Pagination",
-            "description": "A Directory Where A Limited Number of Users Are Displayed On Each Page",
-            "technologies": ["Pagination Techniques", "Vanilla JS", "HTML", "CSS"],
-            "live_link": "https://zacharybaca.github.io/data-pagination/",
-            "github_link": "https://github.com/zacharybaca/data-pagination",
-            "image_urls": ["/static/images/data-pagination/landing-page.png", "/static/images/data-pagination/pagination-page.png", "/static/images/data-pagination/pagination-page2.png"]
-        },
-        {
-            "id": 2,
-            "project_name": "Kwitter-Clone",
-            "description": "A Minimalistic Replica of Twitter. This Was a Group Project That I Did With My Classmates.",
-            "technologies": ["React", "Axios", "Redux", "HTML", "CSS", "REST API"],
-            "live_link": "https://kwitter-clone-ht0uxa661.vercel.app",
-            "github_link": "https://github.com/YaseenFSD/Kwitter",
-            "image_urls": ["/static/images/kwitter/landing-page.png", "/static/images/kwitter/profile-page.png", "/static/images/kwitter/signup-page.png"]
-        },
-        {
-           "id": 3,
-           "project_name": "Interactive-Form",
-           "description": "A Form That Provides Validation Errors When Not Filled Out Correctly",
-           "technologies": ["Vanilla JS", "HTML", "CSS", "RegEx"],
-           "live_link": "https://zacharybaca.github.io/Interactive-Form/",
-           "github_link": "https://github.com/zacharybaca/Interactive-Form",
-           "image_urls": ["/static/images/interactive-form/landing-page.png", "/static/images/interactive-form/shirt-screen.png", "/static/images/interactive-form/shirt-screen2.png", "/static/images/interactive-form/validation-error.png"] 
-        },
-        {
-            "id": 4,
-            "project_name": "Quote-Generator",
-            "description": "An Static Webpage The Renders Random Quotes Upon Clicking a Button",
-            "technologies": ["Vanilla JS", "HTML", "CSS"],
-            "live_link": "https://zacharybaca.github.io/quote-generator/",
-            "github_link": "https://github.com/zacharybaca/quote-generator",
-            "image_urls": ["/static/images/quote-generator/landing-page.png", "/static/images/quote-generator/screen2.png", "/static/images/quote-generator/screen3.png"]
-        }
-    ]
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Generic Word Guessing Game",
+      "description": "A Game Where A User Tries To Guess The Letters of a Random Phrase",
+      "technologies": [
+        "Vanilla JS",
+        "Object Oriented Programming",
+        "HTML",
+        "CSS"
+      ],
+      "live_link": "https://zacharybaca.github.io/oop-game/",
+      "github_link": "https://github.com/zacharybaca/oop-game",
+      "image_urls": [
+        "/static/images/oop-game/begin-screen.png",
+        "/static/images/oop-game/landing-page.png",
+        "/static/images/oop-game/lose-screen.png",
+        "/static/images/oop-game/play-screen.png",
+        "/static/images/oop-game/win-screen.png"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "Data Pagination",
+      "description": "A Directory Where A Limited Number of Users Are Displayed On Each Page",
+      "technologies": ["Pagination Techniques", "Vanilla JS", "HTML", "CSS"],
+      "live_link": "https://zacharybaca.github.io/data-pagination/",
+      "github_link": "https://github.com/zacharybaca/data-pagination",
+      "image_urls": [
+        "/static/images/data-pagination/landing-page.png",
+        "/static/images/data-pagination/pagination-page.png",
+        "/static/images/data-pagination/pagination-page2.png"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Kwitter Clone",
+      "description": "A Minimalistic Replica of Twitter. This Was a Group Project That I Did With My Classmates.",
+      "technologies": ["React", "Axios", "Redux", "HTML", "CSS", "REST API"],
+      "live_link": "https://kwitter-clone-ht0uxa661.vercel.app",
+      "github_link": "https://github.com/YaseenFSD/Kwitter",
+      "image_urls": [
+        "/static/images/kwitter/landing-page.png",
+        "/static/images/kwitter/profile-page.png",
+        "/static/images/kwitter/signup-page.png"
+      ]
+    },
+    {
+      "id": 3,
+      "project_name": "Interactive Form",
+      "description": "A Form That Provides Validation Errors When Not Filled Out Correctly",
+      "technologies": ["Vanilla JS", "HTML", "CSS", "RegEx"],
+      "live_link": "https://zacharybaca.github.io/Interactive-Form/",
+      "github_link": "https://github.com/zacharybaca/Interactive-Form",
+      "image_urls": [
+        "/static/images/interactive-form/landing-page.png",
+        "/static/images/interactive-form/shirt-screen.png",
+        "/static/images/interactive-form/shirt-screen2.png",
+        "/static/images/interactive-form/validation-error.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Quote Generator",
+      "description": "A Static Webpage The Renders Random Quotes Upon Clicking a Button",
+      "technologies": ["Vanilla JS", "HTML", "CSS"],
+      "live_link": "https://zacharybaca.github.io/quote-generator/",
+      "github_link": "https://github.com/zacharybaca/quote-generator",
+      "image_urls": [
+        "/static/images/quote-generator/landing-page.png",
+        "/static/images/quote-generator/screen2.png",
+        "/static/images/quote-generator/screen3.png"
+      ]
+    },
+    {
+      "id": 5,
+      "project_name": "Email Campaign Design",
+      "description": "A Photoshop Design File That I Converted to a Webpage",
+      "technologies": ["HTML", "CSS"],
+      "live_link": "https://zacharybaca.github.io/email-campaign-responsive/",
+      "github_link": "https://github.com/zacharybaca/email-campaign-responsive",
+      "image_urls": [
+        "/static/images/email-campaign/landing_page.png",
+        "/static/images/email-campaign/landing_page2.png"
+      ]
+    }
+  ]
 }
