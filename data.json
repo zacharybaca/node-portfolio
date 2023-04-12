@@ -84,6 +84,28 @@
         "/static/images/email-campaign/landing_page.png",
         "/static/images/email-campaign/landing_page2.png"
       ]
+    },
+    {
+      "id": 6,
+      "project_name": "School Course Catalog",
+      "description": "This project is a Fullstack Web application that lets a user create, read, update, and delete courses that were created by them. However, a user is only able to view the courses that were created by other users, and unable to update or delete them. A user is also able to sign up/ sign in into the application using an email address and password. If the user enters any incorrect data into the compenents that render forms, they will be displayed with Validation Error messages, letting them know what they did wrong, and what they need to do to correct it.",
+      "technologies": [
+        "JavaScript",
+        "ReactJS",
+        "ExpressJS",
+        "Sequelize",
+        "SQLite",
+        "React Context API",
+        "Basic Auth"
+      ],
+      "live_link": "https://school-course-catalog-front-end-production.up.railway.app/",
+      "github_link": "https://github.com/zacharybaca/school-course-fullstack-app",
+      "image_urls": [
+        "/static/images/course-catalog/landing_page.png",
+        "/static/images/course-catalog/sign_up.png",
+        "/static/images/course-catalog/create_course.png",
+        "/static/images/course-catalog/update_course.png"
+      ]
     }
   ]
 }
