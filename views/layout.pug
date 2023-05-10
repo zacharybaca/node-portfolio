@@ -9,6 +9,7 @@ html(lang="en" dir="ltr")
     link(rel='stylesheet', href='/static/css/normalize.css')
     link(rel='stylesheet', href='/static/css/styles.css')
 
+
   body
     #my-info.sidebar
       .sidebar-info-box
@@ -17,25 +18,28 @@ html(lang="en" dir="ltr")
           img.thumbnail(src='/static/images/profile.JPG', alt='profile picture')
         .dev-intro-box
 
-          
+
           h5 Zachary Baca
 
-          
+
           p Hi! My name is Zachary, and I am a Full-stack Web Developer. I love to enhance existing web applications using my modern programming skills, as well as building them from the ground up.
-          p I don't think of coding as a job; I consider it a hobby since it is one of my favorite things to do. I even prefer it over watching TV! To get a little taste of what I can do, feel free to 
+          p I don't think of coding as a job; I consider it a hobby since it is one of my favorite things to do. I even prefer it over watching TV! To get a little taste of what I can do, feel free to
           p browse through my most recent projects, and see for yourself if I would make a good addition to your company. Cheers!
 
-          
+
           a(href='./about') Learn More &rarr;
+
+          button(type='button' id='mode-button') Switch to Light Mode
 
     .wrapper
       .header
         .header-info-box
           button#menu-icon.menu-icon(type='button' data-toggle='my-info')
 
-          
+
           span Zachary Baca
 
       block content
 
   script(src='/static/js/script.js')
+  script(src='/static/js/theme.js')
