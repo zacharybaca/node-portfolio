@@ -106,6 +106,45 @@
         "/static/images/course-catalog/create_course.png",
         "/static/images/course-catalog/update_course.png"
       ]
+    },
+    {
+      "id": 7,
+      "project_name": "Axios Todo List",
+      "description": "A todo list web application I had created with vanilla javascript and axios for the api calls. A user can add a task by typing in a title, price, description, and attach a link to an image to identify the task more easily. A user is able to delete and edit items as well. Instead of the user having to refresh the page to see changes; the list will auto-update when an add, delete, or update is requested.",
+      "technologies": ["HTML", "CSS", "JavaScript", "Axios", "NodeJS"],
+      "live_link": "https://zacharybaca.github.io/axios-todo-list/",
+      "github_link": "https://github.com/zacharybaca/axios-todo-list",
+      "image_urls": [
+        "/static/images/axios-todo-list/main-screen.png",
+        "/static/images/axios-todo-list/main-screen-2.png",
+        "/static/images/axios-todo-list/completed-screen.png"
+      ]
+    },
+    {
+      "id": 8,
+      "project_name": "Name Badge",
+      "description": "This is a React web application that will generate a name badge based on the values a user enters on a form. There is some form validation for the amount of characters that is required and how a user is supposed to enter their phone number. If a user doesn't fill in all the fields, the submit button remains disabled until all the fields have some value in them.",
+      "technologies": ["HTML", "CSS", "JavaScript", "JSX", "React"],
+      "live_link": "https://zacharybaca.github.io/name-badge/",
+      "github_link": "https://github.com/zacharybaca/name-badge",
+      "image_urls": [
+        "/static/images/name-badge/main-screen.png",
+        "/static/images/name-badge/add-screen.png",
+        "/static/images/name-badge/submit-screen.png"
+      ]
+    },
+    {
+      "id": 9,
+      "project_name": "Meme Generator",
+      "description": "This is a React web application that utilizes a third-party API in order to get random memes. The user is able to preview what the meme will look like before saving it. The user is able to customize the text on the meme by providing the text that will appear on top and bottom. Once the user saves their meme, it will appear at the bottom of the page, and the input text boxes are automatically cleared. A user is able to delete and edit memes as well.",
+      "technologies": ["HTML", "CSS", "JavaScript", "JSX", "React", "NodeJS", "Fetch API"],
+      "live_link": "https://zacharybaca.github.io/meme-generator/",
+      "github_link": "https://github.com/zacharybaca/meme-generator",
+      "image_urls": [
+        "/static/images/meme-generator/main-screen.png",
+        "/static/images/meme-generator/creation-screen.png",
+        "/static/images/meme-generator/saved-screen.png"
+      ]
     }
   ]
 }
