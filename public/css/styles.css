@@ -361,25 +361,3 @@ nav a span {
     max-width: 1200px;
   }
 }
-
-/*Applies Dark Mode*/
-.dark-mode {
-  background-color: black;
-  color: #fefefe;
-}
-
-.light-mode {
-  background-color: white;
-  color: black;
-}
-
-/*Dark Mode Button*/
-#mode-button {
-  background-color: gray;
-  margin-top: 5%;
-  width: 50%;
-}
-
-#mode-button:hover {
-  cursor: pointer;
-}
