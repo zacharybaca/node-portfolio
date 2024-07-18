@@ -66,7 +66,7 @@ app.use((err, req, res, next) => {
 app.get("/download/:filename", (req, res) => {
     const filePath = __dirname + "/public/documents/" + req.params.filename;
 
-    res.download(filePath, "resume.pdf", (err) => {
+    res.download(filePath, "revised-resume.pdf", (err) => {
         if (err) {
             res.send({
                 error: err,
