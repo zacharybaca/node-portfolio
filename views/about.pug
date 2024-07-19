@@ -23,6 +23,18 @@ block content
 
           p   Ever since I had written my first piece of code, I knew I was hooked. I am a passionate web developer who seeks challenges and wants to learn new skills every day. It is instant gratification for me to see what I am able to create with code. It also makes me happy knowing that apps that I help create, are helping people in need, and providing them with a better life. Really, I don't think of coding as a job; it is more of a hobby for me, which I do every day. I am seeking a role as a Fullstack Web Developer to build upon the training that I received at Kenzie Academy.
 
+          p   If you like what you see, and think I may bring some value to your team, please use the contact form below to reach me.
+
+          
+          .form 
+            form(id="contactForm", action="/submit-form", method="post")
+              label(for="name") Enter Your Name: 
+              input(id="name", type="text", name="name")
+              label(for="email") Enter Your Email: 
+              input(id="email", type="email", name="email")
+              label(for="message") Enter A Message: 
+              textarea(id="message", name="message", cols="30", rows="5")
+              button(type="submit") Submit 
 
       .skills-contact-box.box
         h6 Skills
@@ -63,6 +75,7 @@ block content
         a.btn-link(href='https://www.linkedin.com/in/z46350/', target="_blank") LinkedIn
         a.btn-link(href='https://github.com/zacharybaca', target="_blank") GitHub
 
+      
 
     nav.nav
       a(href='/')

@@ -1,8 +1,12 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 const favicon = require('serve-favicon');
 const path = require('path');
 const PORT = 3000;
 const { projects } = require('./data.json');
+
+
+const emailjs = require("@emailjs/nodejs");
 
 //Set App To Equal Express Function
 const app = express();
@@ -15,6 +19,9 @@ app.use('/static', express.static(path.join(__dirname, 'public')));
 
 //Middleware To Read Incoming Data as JSON
 app.use(express.json());
+
+//Middleware To Read Form Data
+app.use(bodyParser.urlencoded({ extended: true }));
 
 //Middleware To Render Favicon
 app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.png')));
@@ -45,6 +52,46 @@ app.get('/project/:id', (req, res, next) => {
         next(err);
     }
 });
+
+// Email Server Configuration
+emailjs.init({
+    publicKey: "hrwzRdjpbVP720IcV",
+    // Do not allow headless browsers
+    blockHeadless: true,
+    blockList: {
+      // Block the suspended emails
+      list: ['foo@emailjs.com', 'bar@emailjs.com'],
+      // The variable contains the email address
+      watchVariable: 'userEmail',
+    },
+    limitRate: {
+      // Set the limit rate for the application
+      id: 'app',
+      // Allow 1 request per 10s
+      throttle: 10000,
+    },
+  });
+
+// Route For Email Server
+app.post("/submit-form", (req, res) => {
+    
+    const formData = {
+        name: req.body.name,
+        email: req.body.email,
+        message: req.body.message
+    }
+    console.log(formData);
+    emailjs.send('service_9kukvd9', 'template_epflkrw', formData)
+          .then(() => {
+             return res.status(200).send("Email Successfully Sent!")
+          }, (error) => {
+             return res.status(error.status).send('Error: ', error.message);
+          });
+    // Clear Inputs in Form
+    document.getElementById('name').value = '';
+    document.getElementById('email').value = '';
+    document.getElementById('message').value = '';
+})
 
 //Middleware To Catch Errors
 
