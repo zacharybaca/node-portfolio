@@ -145,6 +145,18 @@
         "/static/images/meme-generator/creation-screen.png",
         "/static/images/meme-generator/saved-screen.png"
       ]
+    },
+    {
+      "id": 10,
+      "project_name": "CSS Gradient Tool Generator",
+      "description": "This application was built using the React framework. The application consists of a preview box, where a user can preview the color gradient that they are creating. The user also has the ability to choose a third color by clicking the plus button. Once the user is happy with the results, they are able to click the copy code button to use as they wish.",
+      "technologies": ["HTML", "CSS", "JavaScript", "JSX", "React"],
+      "live_link": "https://zacharybaca.github.io/css-gradient-tool/",
+      "github_link": "https://github.com/zacharybaca/css-gradient-tool",
+      "image_urls": [
+        "/static/images/CSS-Gradient-Tool/main-screen.png",
+        "/static/images/CSS-Gradient-Tool/creation-screen.png"
+      ]
     }
   ]
 }
