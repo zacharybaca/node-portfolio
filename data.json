@@ -157,6 +157,19 @@
         "/static/images/CSS-Gradient-Tool/main-screen.png",
         "/static/images/CSS-Gradient-Tool/creation-screen.png"
       ]
+    },
+    {
+      "id": 11,
+      "project_name": "Ugly Things Tracker List",
+      "description": "This application was built using the React framework. The application has 3 input fields that a user must enter a value in, or the submit button will not become active. Once the user clicks the submit button, their created Ugly Thing will appear in the scrollable box of Ugly Things. The state of this application is derived from a third-party API. The local state of the application is managed by the Context utility that is built in React.",
+      "technologies": ["HTML", "CSS", "Bootstrap", "JavaScript", "JSX", "React", "Fetch API", "Context API"],
+      "live_link": "https://zacharybaca.github.io/ugly-things/",
+      "github_link": "https://github.com/zacharybaca/ugly-things",
+      "image_urls": [
+        "/static/images/ugly-things/landing-page.png",
+        "/static/images/ugly-things/scrollable-items-page.png",
+        "/static/images/ugly-things/update-item-box.png"
+      ]
     }
   ]
 }
