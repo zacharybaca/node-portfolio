@@ -170,6 +170,31 @@
         "/static/images/ugly-things/scrollable-items-page.png",
         "/static/images/ugly-things/update-item-box.png"
       ]
-    }
+    },
+     {
+       "id": 12,
+       "project_name": "Secure Password Generator",
+       "description": "This web application first checks to see if the user's entered password is secure or not. If the password is not secure, they will be presented with a button to click on to have the application generate a new, secure password. The user also has options they can select regarding the criteria of the generated password. After the user generates a new password, they will also be presented with an option to have a QR code created that contains their new password.",
+       "technologies": [
+         "HTML",
+         "CSS",
+         "JavaScript",
+         "JSX",
+         "React",
+         "Fetch API",
+         "Context API",
+         "React Router",
+         "Third Party API(s)"
+       ],
+       "live_link": "https://zacharybaca.github.io/password-generator-api-project/#/",
+       "github_link": "https://github.com/zacharybaca/password-generator-api-project",
+       "image_urls": [
+         "/static/images/secure-password-generator/landing-page.png",
+         "/static/images/secure-password-generator/generate-password-page.png",
+         "/static/images/secure-password-generator/secure-password-page.png",
+         "/static/images/secure-password-generator/results-page.png",
+         "/static/images/secure-password-generator/qr-code-page.png"
+       ]
+     }
   ]
 }
