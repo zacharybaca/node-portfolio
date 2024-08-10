@@ -253,6 +253,11 @@ nav a span {
   margin: 0 auto 8px;
 }
 
+.projects-box {
+  max-height: 90vh;
+  overflow: auto;
+}
+
 .cell a {
   width: 100%;
 }
