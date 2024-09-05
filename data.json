@@ -88,7 +88,7 @@
     {
       "id": 6,
       "project_name": "School Course Catalog",
-      "description": "This project is a Fullstack Web application that lets a user create, read, update, and delete courses that were created by them. However, a user is only able to view the courses that were created by other users, and unable to update or delete them. A user is also able to sign up/ sign in into the application using an email address and password. If the user enters any incorrect data into the compenents that render forms, they will be displayed with Validation Error messages, letting them know what they did wrong, and what they need to do to correct it.",
+      "description": "This project is a full-stack web application that allows users to manage their own courses and view courses created by others. Each user can create, read, update, and delete their own courses, but can only view courses created by other users without the ability to modify or delete them. The application also features a secure sign-up and login system using email and password authentication. Form validation is implemented to ensure data integrity, with error messages displayed for incorrect or missing input, guiding users to correct their mistakes.",
       "technologies": [
         "JavaScript",
         "ReactJS",
@@ -110,7 +110,7 @@
     {
       "id": 7,
       "project_name": "Axios Todo List",
-      "description": "A todo list web application I had created with vanilla javascript and axios for the api calls. A user can add a task by typing in a title, price, description, and attach a link to an image to identify the task more easily. A user is able to delete and edit items as well. Instead of the user having to refresh the page to see changes; the list will auto-update when an add, delete, or update is requested.",
+      "description": "This is a to-do list web application built with vanilla JavaScript and Axios for API calls. Users can add tasks by providing a title, price, description, and an image URL to help visually identify each task. The application allows users to edit or delete tasks seamlessly. Changes such as adding, editing, or deleting tasks are reflected in real-time, eliminating the need for page refreshes.",
       "technologies": ["HTML", "CSS", "JavaScript", "Axios", "NodeJS"],
       "live_link": "https://zacharybaca.github.io/axios-todo-list/",
       "github_link": "https://github.com/zacharybaca/axios-todo-list",
@@ -123,7 +123,7 @@
     {
       "id": 8,
       "project_name": "Name Badge",
-      "description": "This is a React web application that will generate a name badge based on the values a user enters on a form. There is some form validation for the amount of characters that is required and how a user is supposed to enter their phone number. If a user doesn't fill in all the fields, the submit button remains disabled until all the fields have some value in them.",
+      "description": "This React web application generates a name badge based on user input from a form. The form includes validation to ensure proper character limits and correct phone number formatting. The submit button remains disabled until all required fields are filled, ensuring complete input before submission.",
       "technologies": ["HTML", "CSS", "JavaScript", "JSX", "React"],
       "live_link": "https://zacharybaca.github.io/name-badge/",
       "github_link": "https://github.com/zacharybaca/name-badge",
@@ -136,7 +136,7 @@
     {
       "id": 9,
       "project_name": "Meme Generator",
-      "description": "This is a React web application that utilizes a third-party API in order to get random memes. The user is able to preview what the meme will look like before saving it. The user is able to customize the text on the meme by providing the text that will appear on top and bottom. Once the user saves their meme, it will appear at the bottom of the page, and the input text boxes are automatically cleared. A user is able to delete and edit memes as well.",
+      "description": "This React web application integrates a third-party API to fetch random memes. Users can preview the meme and customize it by adding text to the top and bottom. Once saved, the meme appears at the bottom of the page, and the input fields are automatically cleared. Users can also edit or delete saved memes for further customization.",
       "technologies": ["HTML", "CSS", "JavaScript", "JSX", "React", "NodeJS", "Fetch API"],
       "live_link": "https://zacharybaca.github.io/meme-generator/",
       "github_link": "https://github.com/zacharybaca/meme-generator",
@@ -149,7 +149,7 @@
     {
       "id": 10,
       "project_name": "CSS Gradient Tool Generator",
-      "description": "This application was built using the React framework. The application consists of a preview box, where a user can preview the color gradient that they are creating. The user also has the ability to choose a third color by clicking the plus button. Once the user is happy with the results, they are able to click the copy code button to use as they wish.",
+      "description": "This application, built with React, features a preview box where users can create and visualize color gradients in real-time. Users can add a third color to the gradient by clicking the plus button. Once satisfied with the gradient, they can easily copy the generated code with a single click for use elsewhere.",
       "technologies": ["HTML", "CSS", "JavaScript", "JSX", "React"],
       "live_link": "https://zacharybaca.github.io/css-gradient-tool/",
       "github_link": "https://github.com/zacharybaca/css-gradient-tool",
@@ -161,7 +161,7 @@
     {
       "id": 11,
       "project_name": "Ugly Things Tracker List",
-      "description": "This application was built using the React framework. The application has 3 input fields that a user must enter a value in, or the submit button will not become active. Once the user clicks the submit button, their created Ugly Thing will appear in the scrollable box of Ugly Things. The state of this application is derived from a third-party API. The local state of the application is managed by the Context utility that is built in React.",
+      "description": "This React application features three input fields that users must complete before the submit button becomes active. Upon submission, the created "Ugly Thing" is displayed in a scrollable list. The application's state is powered by data from a third-party API, with local state management handled using React's built-in Context API.",
       "technologies": ["HTML", "CSS", "Bootstrap", "JavaScript", "JSX", "React", "Fetch API", "Context API"],
       "live_link": "https://zacharybaca.github.io/ugly-things/",
       "github_link": "https://github.com/zacharybaca/ugly-things",
@@ -174,7 +174,7 @@
      {
        "id": 12,
        "project_name": "Secure Password Generator",
-       "description": "This web application first checks to see if the user's entered password is secure or not. If the password is not secure, they will be presented with a button to click on to have the application generate a new, secure password. The user also has options they can select regarding the criteria of the generated password. After the user generates a new password, they will also be presented with an option to have a QR code created that contains their new password.",
+       "description": "This web application checks whether the user's entered password is secure. If it's not, a button appears, allowing the user to generate a secure password. Users can customize the criteria for the generated password. Once a new password is created, the application offers the option to generate a QR code containing the password for easy access.",
        "technologies": [
          "HTML",
          "CSS",
