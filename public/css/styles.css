@@ -233,8 +233,14 @@ nav a span {
 
 .portfolio-intro h1 {
   font-size: 1.5rem;
-  color: #0a0a0a;
   margin: 0 auto 8px;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
 }
 
 .portfolio-intro p {
