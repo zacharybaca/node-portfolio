@@ -161,7 +161,7 @@
     {
       "id": 11,
       "project_name": "Ugly Things Tracker List",
-      "description": "This React application features three input fields that users must complete before the submit button becomes active. Upon submission, the created "Ugly Thing" is displayed in a scrollable list. The application's state is powered by data from a third-party API, with local state management handled using React's built-in Context API.",
+      "description": "This React application features three input fields that users must complete before the submit button becomes active. Upon submission, the created Ugly Thing is displayed in a scrollable list. The application's state is powered by data from a third-party API, with local state management handled using React's built-in Context API.",
       "technologies": ["HTML", "CSS", "Bootstrap", "JavaScript", "JSX", "React", "Fetch API", "Context API"],
       "live_link": "https://zacharybaca.github.io/ugly-things/",
       "github_link": "https://github.com/zacharybaca/ugly-things",
