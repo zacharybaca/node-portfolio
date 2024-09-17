@@ -159,6 +159,19 @@ nav a span {
   border: 4px solid #fff;
 }
 
+.logo-image {
+  display: table;
+  margin-top: -13%;
+  margin-bottom: -10%;
+  margin-left: 10%;
+  width: 80%;
+  height: 40%;
+}
+
+.qr-image {
+  margin-top: 140%;
+}
+
 .dev-intro-box {
   padding: 10px;
 }
