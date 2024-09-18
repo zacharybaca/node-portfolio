@@ -27,5 +27,5 @@ block content
         .cell
           a(href=`/project/${project.id}`)
             img.thumbnail(src=`${project.image_urls[0]}`, alt='landing page')
-            h5= project.project_name
+            h5#project-heading= project.project_name
 

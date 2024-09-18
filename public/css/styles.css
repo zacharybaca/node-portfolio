@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 
+@font-face {
+  font-family: "Stylish";
+  src: local("BigelowRules"),
+    url("../fonts/BigelowRules.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Normal";
+  src: local("BilboSwashCaps"),
+    url("../fonts/BilboSwashCaps.ttf") format("truetype");
+}
+
 /*
   Main styles
 */
@@ -130,6 +142,27 @@ nav a {
 nav a span {
   font-weight: bold;
   font-size: 1.25rem;
+}
+
+#name-heading {
+  font-family: "Stylish";
+  font-size: 50px;
+}
+
+#about-heading {
+  font-family: "Stylish";
+  font-size: 50px;
+}
+
+#title-heading {
+  font-family: "Normal";
+  font-size: 30px;
+}
+
+#project-heading {
+  font-family: "Stylish";
+  font-size: 30px;
+  font-weight: 800;
 }
 
 .sidebar {
