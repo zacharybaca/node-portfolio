@@ -198,7 +198,7 @@
      },
      {
        "id": 13,
-       "project_name": "Issue Insight: Sofware Bug Tracker",
+       "project_name": "Issue Insight: Software Bug Tracker",
        "description": "This is a full-stack web application designed for managing software development tasks and tracking bugs. The application allows users to create, assign, and update tasks. It's particularly useful for teams, providing tools to manage tasks between employees and managers.",
        "technologies": [
          "HTML",
