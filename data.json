@@ -195,6 +195,35 @@
          "/static/images/secure-password-generator/results-page.png",
          "/static/images/secure-password-generator/qr-code-page.png"
        ]
+     },
+     {
+       "id": 13,
+       "project_name": "Issue Insight: Sofware Bug Tracker",
+       "description": "This is a full-stack web application designed for managing software development tasks and tracking bugs. The application allows users to create, assign, and update tasks. It's particularly useful for teams, providing tools to manage tasks between employees and managers.",
+       "technologies": [
+         "HTML",
+         "CSS",
+         "JavaScript",
+         "JSX",
+         "React",
+         "Fetch API",
+         "Context API",
+         "React Router",
+         "BCryptJS",
+         "JSON Web Token",
+         "ExpressJS",
+         "NodeJS",
+         "Third Party API(s)"
+       ],
+       "live_link": "https://software-bug-tracker.onrender.com",
+       "github_link": "https://github.com/zacharybaca/software-bug-tracker",
+       "image_urls": [
+         "/static/images/software-bug-tracker/homepage.png",
+         "/static/images/software-bug-tracker/task-list-page.png",
+         "/static/images/software-bug-tracker/assigned-tasks-page.png",
+         "/static/images/software-bug-tracker/unassigned-tasks-page.png",
+         "/static/images/software-bug-tracker/employee-directory-page.png"
+       ]
      }
   ]
 }
