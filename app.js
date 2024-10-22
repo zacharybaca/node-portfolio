@@ -113,7 +113,7 @@ app.use((err, req, res, next) => {
 app.get("/download/:filename", (req, res) => {
     const filePath = __dirname + "/public/documents/" + req.params.filename;
 
-    res.download(filePath, "revised-resume.pdf", (err) => {
+    res.download(filePath, "software-engineer-resume.pdf", (err) => {
         if (err) {
             res.send({
                 error: err,
