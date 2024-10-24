@@ -3,6 +3,7 @@ const bodyParser = require('body-parser');
 const favicon = require('serve-favicon');
 const path = require('path');
 const PORT = 3000;
+require("dotenv").config();
 const { projects } = require('./data.json');
 
 
@@ -56,13 +57,14 @@ app.get('/project/:id', (req, res, next) => {
 // Email Server Configuration
 emailjs.init({
     publicKey: "hrwzRdjpbVP720IcV",
+    privateKey: process.env.PRIVATE_KEY,
     // Do not allow headless browsers
     blockHeadless: true,
     blockList: {
       // Block the suspended emails
       list: ['foo@emailjs.com', 'bar@emailjs.com'],
       // The variable contains the email address
-      watchVariable: 'userEmail',
+      watchVariable: 'email',
     },
     limitRate: {
       // Set the limit rate for the application
