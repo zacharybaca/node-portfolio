@@ -74,30 +74,35 @@ emailjs.init({
 
 // Route For Email Server
 app.post("/submit-form", (req, res) => {
-    
-    const formData = {
-        name: req.body.name,
-        email: req.body.email,
-        message: req.body.message
-    }
-    console.log(formData);
-    emailjs.send('service_9kukvd9', 'template_epflkrw', formData)
-          .then(() => {
-             return res.status(200).send("Email Successfully Sent!")
-          }, (error) => {
-             return res.status(error.status).send('Error: ', error.message);
-          });
-    // Clear Inputs in Form
-    document.getElementById('name').value = '';
-    document.getElementById('email').value = '';
-    document.getElementById('message').value = '';
+  const formData = {
+    name: req.body.name,
+    email: req.body.email,
+    message: req.body.message,
+  };
 
-    // emailjs.send("service_9kukvd9", "template_1ei5qn6", formData)
-    //       .then(() => {
-    //         return res.status(200).send("Reply Email Successfully Sent!")
-    //       }, (error) => {
-    //         return res.status(error.status).send('Error: ', error.message);
-    //       });
+  console.log(formData);
+  emailjs.send("service_9kukvd9", "template_epflkrw", formData).then(
+    () => {
+      return res.status(200).send("Email Successfully Sent!");
+    },
+    (error) => {
+      return res.status(error.status).send("Error: ", error.message);
+    }
+  );
+
+  emailjs.send("service_9kukvd9", "template_1ei5qn6", formData).then(
+    () => {
+      return res.status(200).send("Reply Email Successfully Sent!");
+    },
+    (error) => {
+      return res.status(error.status).send("Error: ", error.message);
+    }
+  );
+
+  // Clear Inputs in Form
+  document.getElementById("name").value = "";
+  document.getElementById("email").value = "";
+  document.getElementById("message").value = "";
 })
 
 //Middleware To Catch Errors
