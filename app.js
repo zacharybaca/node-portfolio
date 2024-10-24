@@ -74,31 +74,21 @@ emailjs.init({
 
 // Route For Email Server
 app.post("/submit-form", (req, res) => {
-  const formData = {
-    name: req.body.name,
-    email: req.body.email,
-    message: req.body.message,
-  };
+   const formData = {
+     name: req.body.name,
+     email: req.body.email,
+     message: req.body.message,
+   };
 
-  console.log(formData);
-  const sendEmail1 = emailjs.send(
-    "service_9kukvd9",
-    "template_epflkrw",
-    formData
-  );
-  const sendEmail2 = emailjs.send(
-    "service_9kukvd9",
-    "template_1ei5qn6",
-    formData
-  );
-
-  Promise.all([sendEmail1, sendEmail2])
-    .then(() => {
-      return res.status(200).send("Emails Successfully Sent!");
-    })
-    .catch((error) => {
-      return res.status(error.status || 500).send("Error: " + error.message);
-    });
+   console.log(formData);
+   emailjs.send("service_9kukvd9", "template_epflkrw", formData).then(
+     () => {
+       return res.status(200).send("Email Successfully Sent!");
+     },
+     (error) => {
+       return res.status(error.status).send("Error: ", error.message);
+     }
+   );
 });
 
 
