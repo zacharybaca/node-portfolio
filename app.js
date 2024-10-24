@@ -56,7 +56,7 @@ app.get('/project/:id', (req, res, next) => {
 
 // Email Server Configuration
 emailjs.init({
-    publicKey: "hrwzRdjpbVP720IcV",
+    publicKey: process.env.PUBLIC_KEY,
     privateKey: process.env.PRIVATE_KEY,
     // Do not allow headless browsers
     blockHeadless: true,
