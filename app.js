@@ -92,12 +92,12 @@ app.post("/submit-form", (req, res) => {
     document.getElementById('email').value = '';
     document.getElementById('message').value = '';
 
-    emailjs.send("service_9kukvd9", "template_1ei5qn6", formData)
-          .then(() => {
-            return res.status(200).send("Reply Email Successfully Sent!")
-          }, (error) => {
-            return res.status(error.status).send('Error: ', error.message);
-          });
+    // emailjs.send("service_9kukvd9", "template_1ei5qn6", formData)
+    //       .then(() => {
+    //         return res.status(200).send("Reply Email Successfully Sent!")
+    //       }, (error) => {
+    //         return res.status(error.status).send('Error: ', error.message);
+    //       });
 })
 
 //Middleware To Catch Errors
