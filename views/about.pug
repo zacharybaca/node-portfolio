@@ -29,11 +29,11 @@ block content
           .form 
             form(id="contactForm", action="/submit-form", method="post")
               label(for="name") Enter Your Name: 
-              input(id="name", type="text", name="name")
+              input(id="name", type="text", name="name" required)
               label(for="email") Enter Your Email: 
-              input(id="email", type="email", name="email")
+              input(id="email", type="email", name="email" required)
               label(for="message") Enter A Message: 
-              textarea(id="message", name="message", cols="30", rows="5")
+              textarea(id="message", name="message", cols="30", rows="5" required)
               button(type="submit") Submit 
 
       .skills-contact-box.box
