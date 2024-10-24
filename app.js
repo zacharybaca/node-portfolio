@@ -81,29 +81,26 @@ app.post("/submit-form", (req, res) => {
   };
 
   console.log(formData);
-  emailjs.send("service_9kukvd9", "template_epflkrw", formData).then(
-    () => {
-      return res.status(200).send("Email Successfully Sent!");
-    },
-    (error) => {
-      return res.status(error.status).send("Error: ", error.message);
-    }
+  const sendEmail1 = emailjs.send(
+    "service_9kukvd9",
+    "template_epflkrw",
+    formData
+  );
+  const sendEmail2 = emailjs.send(
+    "service_9kukvd9",
+    "template_1ei5qn6",
+    formData
   );
 
-  emailjs.send("service_9kukvd9", "template_1ei5qn6", formData).then(
-    () => {
-      return res.status(200).send("Reply Email Successfully Sent!");
-    },
-    (error) => {
-      return res.status(error.status).send("Error: ", error.message);
-    }
-  );
+  Promise.all([sendEmail1, sendEmail2])
+    .then(() => {
+      return res.status(200).send("Emails Successfully Sent!");
+    })
+    .catch((error) => {
+      return res.status(error.status || 500).send("Error: " + error.message);
+    });
+});
 
-  // Clear Inputs in Form
-  document.getElementById("name").value = "";
-  document.getElementById("email").value = "";
-  document.getElementById("message").value = "";
-})
 
 //Middleware To Catch Errors
 
@@ -112,13 +109,12 @@ app.post("/submit-form", (req, res) => {
 
 //Error Handler For Global Errors That Don't Match Undefined Routes
 app.use((err, req, res, next) => {
-    if (err) {
-        err.status = err.status || 500;
-        err.message = err.message || 'An Error Had Occurred on the Server!';
-        console.log(`Status Code: ${err.status}, Message: ${err.message}`);
-    }
-    
-})
+  err.status = err.status || 500;
+  err.message = err.message || "An Error Had Occurred on the Server!";
+  console.log(`Status Code: ${err.status}, Message: ${err.message}`);
+  res.status(err.status).send(err.message);
+});
+
 
 
 //Route to Download Resume
