@@ -220,6 +220,7 @@
        "image_urls": [
          "/static/images/software-bug-tracker/landing-page.png",
          "/static/images/software-bug-tracker/error-dialog.png",
+         "/static/images/software-bug-tracker/chat-screen.png",
          "/static/images/software-bug-tracker/homepage.png",
          "/static/images/software-bug-tracker/task-list-page.png",
          "/static/images/software-bug-tracker/assigned-tasks-page.png",
