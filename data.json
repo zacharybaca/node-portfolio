@@ -218,6 +218,7 @@
        "live_link": "https://software-bug-tracker.onrender.com",
        "github_link": "https://github.com/zacharybaca/software-bug-tracker",
        "image_urls": [
+         "/static/images/software-bug-tracker/landing-page.png",
          "/static/images/software-bug-tracker/homepage.png",
          "/static/images/software-bug-tracker/task-list-page.png",
          "/static/images/software-bug-tracker/assigned-tasks-page.png",
