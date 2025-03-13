@@ -213,6 +213,7 @@
          "JSON Web Token",
          "ExpressJS",
          "NodeJS",
+         "Web Sockets",
          "Third Party API(s)"
        ],
        "live_link": "https://software-bug-tracker.onrender.com",
