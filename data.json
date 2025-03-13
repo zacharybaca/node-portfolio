@@ -213,6 +213,8 @@
          "JSON Web Token",
          "ExpressJS",
          "NodeJS",
+         "MongoDB",
+         "Mongoose",
          "Web Sockets",
          "Third Party API(s)"
        ],
