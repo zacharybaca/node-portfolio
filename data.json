@@ -246,11 +246,9 @@
       "live_link": "To Be Determined",
       "github_link": "https://github.com/zacharybaca/AgentAssist",
       "image_urls": [
-        "/static/images/oop-game/begin-screen.png",
-        "/static/images/oop-game/landing-page.png",
-        "/static/images/oop-game/lose-screen.png",
-        "/static/images/oop-game/play-screen.png",
-        "/static/images/oop-game/win-screen.png"
+        "/static/images/agent-assist/creation-screen-ipad.jpeg",
+        "/static/images/agent-assist/creation-screen-iphone.jpeg",
+        "/static/images/agent-assist/creation-screen-macbook.jpeg"
       ]
     }
   ]
