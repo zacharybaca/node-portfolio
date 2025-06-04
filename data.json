@@ -230,6 +230,28 @@
          "/static/images/software-bug-tracker/unassigned-tasks-page.png",
          "/static/images/software-bug-tracker/employee-directory-page.png"
        ]
-     }
+     },
+     {
+      "id": 14,
+      "project_name": "Agent Assist",
+      "description": "AgentAssist is built to enhance the customer support experience by equipping agents with a robust knowledge base of helpful articles. These articles offer clear answers to common customer questions and provide step-by-step guidance for handling processes agents encounter in their daily workflows. The application is currently in development, with additional features planned for future releases.",
+      "technologies": [
+        "React JS",
+        "Vite",
+        "Node JS",
+        "Express JS",
+        "Mongo DB",
+        "JSON Web Tokens"
+      ],
+      "live_link": "To Be Determined",
+      "github_link": "https://github.com/zacharybaca/AgentAssist",
+      "image_urls": [
+        "/static/images/oop-game/begin-screen.png",
+        "/static/images/oop-game/landing-page.png",
+        "/static/images/oop-game/lose-screen.png",
+        "/static/images/oop-game/play-screen.png",
+        "/static/images/oop-game/win-screen.png"
+      ]
+    }
   ]
 }
