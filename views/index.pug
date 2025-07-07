@@ -1,18 +1,18 @@
 extends layout.pug
 
 block content
-  if status || message 
+  if status || message
     h1 #{status}
-    h1 #{message} 
-     
+    h1 #{message}
+
 
   article.portfolio-intro
 
-    img.logo-image(src='/static/images/resume-logo.gif', alt='resume-logo')
+    img.logo-image(src='/static/images/portfolio-logo.png', alt='resume-logo')
 
     h1.slogan-header Bringing Your Vision to Life, Pixel by Pixel....
 
-     
+
     p.intro-para Welcome to My Online Portfolio! Explore a selection of my recent projects, all crafted from the ground up.
     p.intro-para Many of these projects showcase my expertise with vanilla JavaScript, but I'm continuously expanding my skill set and plan to add more projects as I dive deeper into modern and advanced technologies.
 
@@ -20,12 +20,11 @@ block content
   article.portfolio-project-thumbs
     .projects-box.box.grid
 
-       
-      
-        
+
+
+
       each project in projects
         .cell
           a(href=`/project/${project.id}`)
             img.thumbnail(src=`${project.image_urls[0]}`, alt='landing page')
             h5#project-heading= project.project_name
-

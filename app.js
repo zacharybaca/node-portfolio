@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 //Middleware To Render Favicon
-app.use(favicon(path.join(__dirname, 'public', 'images', 'favicon.png')));
+app.use(favicon(path.join(__dirname, 'public', 'images', 'portfolio-logo-favicon.ico')));
 
 
 //Route to Take User To Index Page and Give Route Access To Project Data
