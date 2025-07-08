@@ -396,7 +396,7 @@ nav a span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: white;
+  background: #FCF5BD;
   padding: 1rem;
   box-shadow: 0px 0px 6px 0px #808080b3;
   border-radius: 10px;
@@ -407,6 +407,7 @@ nav a span {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .form form input, .form form textarea {
@@ -489,5 +490,17 @@ nav a span {
 
   .inner-wrapper {
     max-width: 100%;
+  }
+}
+
+/*
+  Mobile layout styles
+*/
+@media screen and (max-width: 390px) {
+  .form form textarea {
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 13px;
+    outline: none;
   }
 }
