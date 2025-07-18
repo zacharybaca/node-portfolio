@@ -137,7 +137,15 @@
       "id": 9,
       "project_name": "Meme Generator",
       "description": "This React web application integrates a third-party API to fetch random memes. Users can preview the meme and customize it by adding text to the top and bottom. Once saved, the meme appears at the bottom of the page, and the input fields are automatically cleared. Users can also edit or delete saved memes for further customization.",
-      "technologies": ["HTML", "CSS", "JavaScript", "JSX", "React", "NodeJS", "Fetch API"],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "JSX",
+        "React",
+        "NodeJS",
+        "Fetch API"
+      ],
       "live_link": "https://zacharybaca.github.io/meme-generator/",
       "github_link": "https://github.com/zacharybaca/meme-generator",
       "image_urls": [
@@ -162,7 +170,16 @@
       "id": 11,
       "project_name": "Ugly Things Tracker List",
       "description": "This React application features three input fields that users must complete before the submit button becomes active. Upon submission, the created Ugly Thing is displayed in a scrollable list. The application's state is powered by data from a third-party API, with local state management handled using React's built-in Context API.",
-      "technologies": ["HTML", "CSS", "Bootstrap", "JavaScript", "JSX", "React", "Fetch API", "Context API"],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
+        "JSX",
+        "React",
+        "Fetch API",
+        "Context API"
+      ],
       "live_link": "https://zacharybaca.github.io/ugly-things/",
       "github_link": "https://github.com/zacharybaca/ugly-things",
       "image_urls": [
@@ -171,67 +188,67 @@
         "/static/images/ugly-things/update-item-box.png"
       ]
     },
-     {
-       "id": 12,
-       "project_name": "Secure Password Generator",
-       "description": "This web application checks whether the user's entered password is secure. If it's not, a button appears, allowing the user to generate a secure password. Users can customize the criteria for the generated password. Once a new password is created, the application offers the option to generate a QR code containing the password for easy access.",
-       "technologies": [
-         "HTML",
-         "CSS",
-         "JavaScript",
-         "JSX",
-         "React",
-         "Fetch API",
-         "Context API",
-         "React Router",
-         "Third Party API(s)"
-       ],
-       "live_link": "https://zacharybaca.github.io/password-generator-api-project/#/",
-       "github_link": "https://github.com/zacharybaca/password-generator-api-project",
-       "image_urls": [
-         "/static/images/secure-password-generator/landing-page.png",
-         "/static/images/secure-password-generator/generate-password-page.png",
-         "/static/images/secure-password-generator/secure-password-page.png",
-         "/static/images/secure-password-generator/results-page.png",
-         "/static/images/secure-password-generator/qr-code-page.png"
-       ]
-     },
-     {
-       "id": 13,
-       "project_name": "Issue Insight: Software Bug Tracker",
-       "description": "This is a full-stack web application designed for managing software development tasks and tracking bugs. The application allows users to create, assign, and update tasks. It's particularly useful for teams, providing tools to manage tasks between employees and managers.",
-       "technologies": [
-         "HTML",
-         "CSS",
-         "JavaScript",
-         "JSX",
-         "React",
-         "Fetch API",
-         "Context API",
-         "React Router",
-         "BCryptJS",
-         "JSON Web Token",
-         "ExpressJS",
-         "NodeJS",
-         "MongoDB",
-         "Mongoose",
-         "Web Sockets",
-         "Third Party API(s)"
-       ],
-       "live_link": "https://software-bug-tracker.onrender.com",
-       "github_link": "https://github.com/zacharybaca/software-bug-tracker",
-       "image_urls": [
-         "/static/images/software-bug-tracker/landing-page.png",
-         "/static/images/software-bug-tracker/error-dialog.png",
-         "/static/images/software-bug-tracker/chat-screen.png",
-         "/static/images/software-bug-tracker/homepage.png",
-         "/static/images/software-bug-tracker/task-list-page.png",
-         "/static/images/software-bug-tracker/assigned-tasks-page.png",
-         "/static/images/software-bug-tracker/unassigned-tasks-page.png",
-         "/static/images/software-bug-tracker/employee-directory-page.png"
-       ]
-     },
-     {
+    {
+      "id": 12,
+      "project_name": "Secure Password Generator",
+      "description": "This web application checks whether the user's entered password is secure. If it's not, a button appears, allowing the user to generate a secure password. Users can customize the criteria for the generated password. Once a new password is created, the application offers the option to generate a QR code containing the password for easy access.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "JSX",
+        "React",
+        "Fetch API",
+        "Context API",
+        "React Router",
+        "Third Party API(s)"
+      ],
+      "live_link": "https://zacharybaca.github.io/password-generator-api-project/#/",
+      "github_link": "https://github.com/zacharybaca/password-generator-api-project",
+      "image_urls": [
+        "/static/images/secure-password-generator/landing-page.png",
+        "/static/images/secure-password-generator/generate-password-page.png",
+        "/static/images/secure-password-generator/secure-password-page.png",
+        "/static/images/secure-password-generator/results-page.png",
+        "/static/images/secure-password-generator/qr-code-page.png"
+      ]
+    },
+    {
+      "id": 13,
+      "project_name": "Issue Insight: Software Bug Tracker",
+      "description": "This is a full-stack web application designed for managing software development tasks and tracking bugs. The application allows users to create, assign, and update tasks. It's particularly useful for teams, providing tools to manage tasks between employees and managers.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "JSX",
+        "React",
+        "Fetch API",
+        "Context API",
+        "React Router",
+        "BCryptJS",
+        "JSON Web Token",
+        "ExpressJS",
+        "NodeJS",
+        "MongoDB",
+        "Mongoose",
+        "Web Sockets",
+        "Third Party API(s)"
+      ],
+      "live_link": "https://software-bug-tracker.onrender.com",
+      "github_link": "https://github.com/zacharybaca/software-bug-tracker",
+      "image_urls": [
+        "/static/images/software-bug-tracker/landing-page.png",
+        "/static/images/software-bug-tracker/error-dialog.png",
+        "/static/images/software-bug-tracker/chat-screen.png",
+        "/static/images/software-bug-tracker/homepage.png",
+        "/static/images/software-bug-tracker/task-list-page.png",
+        "/static/images/software-bug-tracker/assigned-tasks-page.png",
+        "/static/images/software-bug-tracker/unassigned-tasks-page.png",
+        "/static/images/software-bug-tracker/employee-directory-page.png"
+      ]
+    },
+    {
       "id": 14,
       "project_name": "Agent Assist",
       "description": "AgentAssist is built to enhance the customer support experience by equipping agents with a robust knowledge base of helpful articles. These articles offer clear answers to common customer questions and provide step-by-step guidance for handling processes agents encounter in their daily workflows. The application is currently in development, with additional features planned for future releases.",
@@ -249,6 +266,31 @@
         "/static/images/agent-assist/creation-screen-ipad.jpeg",
         "/static/images/agent-assist/creation-screen-iphone.jpeg",
         "/static/images/agent-assist/creation-screen-macbook.jpeg"
+      ]
+    },
+    {
+      "id": 15,
+      "project_name": "No Dog Left Behind",
+      "description": "No Dog Left Behind is a responsive, user-friendly front-end application built to connect adoptable dogs in shelters with people looking to provide them a forever home. Created as part of the Fetch Rewards Front-End Developer Interview, this app leverages real-time API data to let users browse, search, and save dog breeds available for adoption.",
+      "technologies": [
+        "React JS",
+        "Vite",
+        "Node JS",
+        "Express JS",
+        "Local Storage for Database",
+        "React-Bootstrap",
+        "UUID",
+        "Font Awesome CDN"
+      ],
+      "live_link": "https://no-dog-left-behind.onrender.com",
+      "github_link": "https://github.com/zacharybaca/no-dog-left-behind",
+      "image_urls": [
+        "/static/images/no-dog-left-behind/dashboard-ipad.jpeg",
+        "/static/images/no-dog-left-behind/dashboard-iphone.jpeg",
+        "/static/images/no-dog-left-behind/dashboard-macbook.jpeg",
+        "/static/images/no-dog-left-behind/sign-in-ipad.jpeg",
+        "/static/images/no-dog-left-behind/sign-in-iphone.jpeg",
+        "/static/images/no-dog-left-behind/sign-in-macbook.jpeg"
       ]
     }
   ]
